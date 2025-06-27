@@ -1,5 +1,7 @@
 import json
+
 from .base_saver import BaseSaver
+
 
 class JSONSaver(BaseSaver):
     def __init__(self, path="data/vacancies.json"):
